@@ -26,7 +26,7 @@ $end = $middle - 1;
 return false;
 }
 
-
+// The array must be sorted. Binary search works only on sorted array and assumes that array is sorted
 $array = [1,5,10,20,25,40,50,80,120];
 $target = 5;
 
